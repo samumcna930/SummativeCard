@@ -301,7 +301,7 @@ namespace SummativeCard
             g.FillPie(starbrush, 530, 358, 10, 10, 0, 360);
             starsound.Play();
             Thread.Sleep(200);
-            //Lower half of left twin
+            //Lines on lower half of left twin
             g.DrawLine(star, 320, 379, 270, 268);
             starsound.Play();
             Thread.Sleep(200);
@@ -314,7 +314,7 @@ namespace SummativeCard
             g.DrawLine(star, 355, 273, 373, 364);
             starsound.Play();
             Thread.Sleep(200);
-            //Top half of left twin
+            //Lines on top half of left twin
             g.DrawLine(star, 320, 216, 336, 132);
             starsound.Play();
             Thread.Sleep(200);
@@ -327,7 +327,7 @@ namespace SummativeCard
             g.DrawLine(star, 336, 133, 332, 95);
             starsound.Play();
             Thread.Sleep(200);
-            //Top half of right twin
+            //Lines on top half of right twin
             g.DrawLine(star, 376, 150, 432, 159);
             starsound.Play();
             Thread.Sleep(200);
@@ -340,7 +340,7 @@ namespace SummativeCard
             g.DrawLine(star, 416, 110, 400, 85);
             starsound.Play();
             Thread.Sleep(200);
-            //Bottum half of right twin 
+            //Lines on bottum half of right twin 
             g.DrawLine(star, 431, 159, 440, 255);
             starsound.Play();
             Thread.Sleep(200);
