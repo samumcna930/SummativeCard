@@ -44,7 +44,7 @@ namespace SummativeCard
             SolidBrush blackbrush = new SolidBrush(Color.Black);
             SolidBrush starbrush = new SolidBrush(Color.FromArgb(177,252,255));
             SolidBrush whitebrush = new SolidBrush(Color.White);
-            Pen star = new Pen(Color.FromArgb(177,252,255));
+            Pen star = new Pen(Color.FromArgb(251,252,24));
 
             SoundPlayer starsound = new SoundPlayer(Properties.Resources.starsound);
             
